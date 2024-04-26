@@ -7,6 +7,8 @@ use App\Http\Controllers\UserController;
 Route::post('/create', [UserController::class, 'create']);
 Route::post('/update', [UserController::class, 'update']);
 Route::post('/list', [UserController::class, 'index']);
+Route::post('/delete', [UserController::class, 'delete']);
+
 
 // Json response format
 
